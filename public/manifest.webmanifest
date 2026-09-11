@@ -1,0 +1,45 @@
+{
+  "name": "Murti Inventory",
+  "short_name": "Murti",
+  "description": "Ganpati Murti Inventory Management System",
+  "id": "/",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f7f7fb",
+  "theme_color": "#6d4aff",
+  "orientation": "portrait-primary",
+
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+
+  "shortcuts": [
+    {
+      "name": "Dashboard",
+      "short_name": "Dashboard",
+      "url": "/"
+    },
+    {
+      "name": "Add Murti",
+      "short_name": "Add Murti",
+      "url": "/?open=add"
+    },
+    {
+      "name": "Locations",
+      "short_name": "Locations",
+      "url": "/?open=locations"
+    }
+  ]
+}
